@@ -17,18 +17,17 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<div>
-  <Navbar></Navbar>
   <Router>
+  <Navbar></Navbar>
+  <br /><br />
     <Routes>
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/articles" element={<Articles />} />
       <Route path="/booking" element={<Booking />} />
     </Routes>
+    <Footer></Footer>
   </Router>
-<Footer></Footer>
-</div>
 );
 
 // If you want to start measuring performance in your app, pass a function
