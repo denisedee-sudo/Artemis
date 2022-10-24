@@ -51,7 +51,7 @@ h2{
     Below code makes it so that an element gets larger on hover.
     */
     .hover-big {
-      transition: .27s;
+      transition: .30s !important; 
     }
     
     .hover-big:hover {
