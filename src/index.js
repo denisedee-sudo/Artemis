@@ -12,7 +12,8 @@ import {
   Home,
   About,
   Articles,
-  Booking
+  Booking,
+  Admin
 } from "./components/forExport";
 import reportWebVitals from './reportWebVitals';
 
@@ -26,6 +27,7 @@ root.render(
       <Route path="/about" element={<About />} />
       <Route path="/articles" element={<Articles />} />
       <Route path="/booking" element={<Booking />} />
+      <Route path="/admin" element={<Admin />} />
     </Routes>
     <Footer></Footer>
   </Router>
