@@ -14,16 +14,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="bar-toggle">
                     <ul className="navbar-nav text-center">
                         <li className="nav-item ">
-                            <NavLink to="/" className="nav-link active text-jindigo hover-carmine hover-big">Home</NavLink>
+                            <NavLink to="/Artemis" className="nav-link active text-jindigo hover-carmine hover-big">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/about" className="nav-link active text-jindigo hover-carmine hover-big" >About US</NavLink>
+                            <NavLink to="/Artemis/about" className="nav-link active text-jindigo hover-carmine hover-big" >About US</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/articles" className="nav-link active text-jindigo hover-carmine hover-big" >Articles</NavLink>
+                            <NavLink to="/Artemis/articles" className="nav-link active text-jindigo hover-carmine hover-big" >Articles</NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink to="/booking" className="nav-link active text-jindigo hover-carmine hover-big">Book an Appointment</NavLink>
+                        <li className="/Artemis/nav-item">
+                            <NavLink to="/Artemis/booking" className="nav-link active text-jindigo hover-carmine hover-big">Book an Appointment</NavLink>
                         </li>
                         <li className="nav-item mx-auto d-block d-sm-none">
                             <button className="btn btn-lg btn-maxy text-jindigo hover-carmine hover-big m-2 p-2 pe-5 ps-5"  data-bs-toggle="modal" data-bs-target="#Donate">

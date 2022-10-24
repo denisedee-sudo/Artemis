@@ -23,11 +23,11 @@ root.render(
   <Navbar></Navbar>
   <br /><br />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/articles" element={<Articles />} />
-      <Route path="/booking" element={<Booking />} />
-      <Route path="/admin" element={<Admin />} />
+      <Route path="/Artemis" element={<Home />} />
+      <Route path="/Artemis/about" element={<About />} />
+      <Route path="/Artemis/articles" element={<Articles />} />
+      <Route path="/Artemis/booking" element={<Booking />} />
+      <Route path="/Artemis/admin" element={<Admin />} />
     </Routes>
     <Footer></Footer>
   </Router>
