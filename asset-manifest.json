@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Artemis/static/css/main.738fb263.css",
-    "main.js": "/Artemis/static/js/main.875bc881.js",
+    "main.js": "/Artemis/static/js/main.96ac5855.js",
     "static/js/787.b2399ba5.chunk.js": "/Artemis/static/js/787.b2399ba5.chunk.js",
     "index.html": "/Artemis/index.html",
     "main.738fb263.css.map": "/Artemis/static/css/main.738fb263.css.map",
-    "main.875bc881.js.map": "/Artemis/static/js/main.875bc881.js.map",
+    "main.96ac5855.js.map": "/Artemis/static/js/main.96ac5855.js.map",
     "787.b2399ba5.chunk.js.map": "/Artemis/static/js/787.b2399ba5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.738fb263.css",
-    "static/js/main.875bc881.js"
+    "static/js/main.96ac5855.js"
   ]
 }
