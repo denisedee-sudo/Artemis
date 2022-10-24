@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+#original html files
+/dummy-files
+
 # testing
 /coverage
 
