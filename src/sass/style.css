@@ -1,0 +1,167 @@
+h2{
+    font-size: 2.5em;
+  }
+  h1{
+    font-size: 3.25em;
+  }
+  h3{
+    font-size: 1.75em;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+  .fb-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 2px;
+  }
+  .fb-div{
+    overflow-x: none;
+  }
+  @media only screen and (max-width: 365px) {
+    .fb-div{
+      overflow-x: scroll !important;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .fb-grid{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-column-gap: 25px;
+      grid-row-gap: 20px;
+    }
+  }
+  /* Custom Fonts Start*/
+        /*  CSS rules to specify families:
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Playfair Display', serif;
+        */
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Playfair+Display&display=swap');
+        .text-play {
+          font-family: 'Playfair Display', serif !important;
+        }
+        .text-jsan {
+          font-family: 'Josefin Sans', sans-serif !important;
+        }
+  /* Custom Fonts End*/
+  /* 
+    Below code makes it so that an element gets larger on hover.
+    */
+    .hover-big {
+      transition: .27s;
+    }
+    
+    .hover-big:hover {
+      transform: scale(1.07) !important; 
+    }
+    /* 
+    Above code makes it so that an element gets larger on hover.
+    */
+  /* Below code makes adds colored text hover  */
+  .hover-carmine {
+      transition: .27s;
+    }
+    
+  .hover-carmine:hover {
+      color: #F14444 !important;
+    }
+  
+    .hover-jindigo {
+      transition: .27s;
+    }
+    
+  .hover-jindigo:hover {
+      color: #2D3E4B !important;
+    }
+  
+    .hover-bubbles {
+      transition: .27s;
+    }
+    
+  .hover-bubbles:hover {
+      color: #E8F6FF !important;
+    }
+  
+    .hover-maxy {
+      transition: .27s;
+    }
+    
+  .hover-maxy:hover {
+      color: #F4F83B !important;
+    }
+  /* Above code makes adds colored text hover  */
+    /* 
+  Below code makes it so that an element changes bg color on hover.
+  */
+  .hover-gradient {
+    transition: .34s;
+  }
+  
+  .hover-gradient:hover {
+    background: linear-gradient(
+      45deg,
+      rgba(241, 68, 68, 0.7),
+      rgba(244, 248, 59, 0.7) 100%
+      ) !important;
+  }
+  .hover-bg-peachpuff {
+    transition: .34s;
+  }
+  
+  .hover-bg-peachpuff:hover {
+    background: #FFD4B9 !important;
+  }
+  .hover-bg-diamond {
+    transition: .34s;
+  }
+  
+  .hover-bg-diamond:hover {
+    background: #B9E4FF !important;
+  }
+  .hover-bg-carmine{
+    transition: .34s;
+  }
+  .hover-bg-carmine:hover {
+    background: #F14444 !important;
+  }
+  
+  .hover-bg-bubbles {
+    transition: .34s;
+  }
+  
+  .hover-bg-bubbles:hover {
+    background: #E8F6FF !important;
+  }
+  .hover-bg-maxy {
+      transition: .34s;
+    }
+    
+  .hover-bg-maxy:hover {
+      background: #F4F83B !important;
+    }
+    .hover-bg-jindigo {
+      transition: .34s;
+    }  
+  .hover-bg-jindigo:hover {
+      background: #2D3E4B !important;
+    }
+  /* 
+  Above code makes it so that an element changes bg color on hover.
+  */
+  /* Below code makes it so that an element is hidden when the screen is extra small. */
+  @media only screen and (max-width: 575px) {
+    .invisible-xs {
+    display: none !important;
+    }
+  }
+  /* 
+  Above code makes it so that an element is hidden when the screen is extra small.
+  */
+  @media only screen and (min-width: 992px) {
+    .invisible-lg-up {
+    display: none !important;
+    }
+  }
