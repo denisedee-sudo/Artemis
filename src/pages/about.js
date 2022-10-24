@@ -3,8 +3,7 @@ import React from 'react';
 
 const About = () => {
     return ( 
-        <div class="container text-jindigo">
-    
+    <div class="container text-jindigo text-play">
         <div class="container  text-jindigo text-jsan">
 
                 <div class="text-center">

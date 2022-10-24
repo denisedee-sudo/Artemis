@@ -2,7 +2,7 @@ import React from 'react';
 
 const Articles = () => {
     return ( 
-    <div class="container text-jindigo">
+    <div class="container text-jindigo text-play">
         <div class="col-12 pt-5 pb-4 text-jindigo text-center">
             <div class="col-12 text-jindigo text-center">
                 <div class="container input-group">

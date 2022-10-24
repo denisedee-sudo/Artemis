@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return ( 
-    <div>
+    <div className='text-play'>
                <section id="heroSection" class="carousel slide col-12 pt-3 pb-5" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
