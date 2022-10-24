@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css\ourStyle.css">
+    <link rel="stylesheet" href="css\calendar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/x-icon" href="Images\ARTEMISlogoDark.ico">
+    <title>Artemis Organization</title>
+</head>
+<body class="container-fluid bg-white text-play">
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-expand-lg  fixed-top text-play bg-diamond">
+        <a class="navbar-brand p-3 text-jindigo hover-big" href="#">
+            <!-- Navbar -->
+            <img src="ARTEMISFinal.png" alt="logo" height="60px">
+        </a>
+        <div class="collapse navbar-collapse" id="bar-toggle">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item ">
+                    <a class="nav-link active text-jindigo hover-carmine hover-big" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-jindigo hover-carmine hover-big" href="About.html">About US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-jindigo hover-carmine hover-big" href="Articles.html">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-jindigo hover-carmine hover-big" href="Book.html">Book an Appointment</a>
+                </li>
+                <li class="nav-item mx-auto d-block d-sm-none">
+                    <button class="btn btn-lg btn-maxy text-jindigo hover-carmine hover-big m-2 p-2 pe-5 ps-5"  data-bs-toggle="modal" data-bs-target="#Donate">
+                        <h5>Donate Now!</h5>
+                    </button>
+                </li>
+                <li class="nav-item mx-auto d-block d-sm-none">
+                    <div class="row align-items-center ms-4 me-4">
+                        <div class="col-6">
+                            <h5  data-bs-toggle="modal" data-bs-target="#SignIn" class="text-jindigo text-center hover-carmine hover-big">Sign In</h5>
+                        </div>
+                        <div class="col-6">
+                            <i class="fa-solid fa-circle-user fa-3x m-1 me-2 ms-2 text-jindigo"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="invisible-xs">
+            <button  data-bs-toggle="modal" data-bs-target="#Donate" class="btn btn-lg btn-maxy text-jindigo hover-carmine hover-big m-2 p-2 pe-5 ps-5">
+                <h5>Donate Now!</h5>
+            </button>
+        </div>
+        <div class="invisible-xs row align-items-center ms-4 me-4">
+            <div class="col-6">
+                <h5  data-bs-toggle="modal" data-bs-target="#SignIn" class="text-jindigo text-center hover-carmine hover-big pointer">Sign In</h5>
+            </div>
+            <div class="col-6">
+                <i class="fa-solid fa-circle-user fa-3x m-1 me-2 ms-2 text-jindigo"></i>
+            </div>
+        </div>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#bar-toggle">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <!-- End of Navbar -->
+    <br><br><br><br><br>
+    <div class="container text-bubbles ">
+        <div class="bg-jindigo col-12 pt-5 text-bubbles text-center container overflow-auto" style="max-width: 4000px; max-height: 500px;">
+            <h2 class="text-bubbles p-3">
+                User Info
+            </h2>
+            <!-- start of form -->
+            <form action="" class="was-validated">
+                <div class="row d-flex justify-content-center">
+                    
+                    <div class="form-group  col-12 col-lg-5 mb-2">
+                        <input type="text" class="form-control" placeholder="First Name"  id="validationTooltip01" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback text-maxy">Please fill out this field.</div>
+                    </div>
+                    <div class="form-group col-12 col-lg-5">
+                        <input type="text" class="form-control" placeholder="Last Name" id="validationTooltip02" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback text-maxy">Please fill out this field.</div>
+                    </div>
+                   
+                </div>
+            </form>
+                
+            <br>
+
+        <form action="" class="was-validated">
+            <div class="row d-flex justify-content-center">
+               
+                <div class="form-group col-12 col-lg-5">
+                    <label for="" class="py-2 mb-1">Mobile Number</label> 
+                    <input type="text" id="phone" name="phone" class="form-control" placeholder="(912)-345-6789" maxlength="14"  onInput="this.value = phoneFormat(this.value)"required>
+                    <!-- <p>You will receive a text message reminder before your appointment</p> -->
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback text-maxy">Please fill out this field.</div>
+                </div>
+            
+            <div class="form-group col-12 col-lg-5">
+                <label for="" class="py-2 mb-1">Email Address</label>
+                <div class="input-group">
+                    <input type="text" class="form-control invalid" id="ValidateEmail" 
+                    onkeyup="ValidateEmail(this.value)"
+                    placeholder="name@email.com" aria-describedby="inputGroupPrepend" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback text-maxy">Please fill out this field.</div>
+                  </div>
+               
+            </div>
+        </form>
+            
+            </div>
+
+            
+            <br>
+            <h4>Additional Personal Information</h4>
+            <br>
+            
+                
+                <!-- <div class="col-5 col-lg-2">
+                <label for="" class="py-2 mb-1">Age</label>
+                <input type="number" class="form-control"> 
+                <input type="text" id="age" name="age" class="form-control" placeholder=" Only 13+ allowed" maxlength="2" required oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*)\./g, '');"/>
+                
+                </div> -->
+            <form action="" class="was-validated d-flex justify-content-center row">
+                <div class="form-group col-12 col-lg-5 ">
+                    <label for="" class="py-1 mb-1"><p></p> Any allergies to Medications? </label>
+                    <p>If yes, list them here:</p>
+                   
+                        <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" onclick="enableYesInputA(this.checked)" required>
+                        <label class="form-check-label pb-3" for="validationFormCheck2">Yes</label>
+                      
+                        <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked"  onclick="disableInputA(this.checked)" required>
+                        <label class="form-check-label pb-3" for="validationFormCheck3">No</label>
+                        
+        
+                    <input type="text" class="form-control" disabled id="Allergies-List"> 
+                    <div class="invalid-feedback text-maxy">Please select answer.</div>
+                    
+                </div>
+                <div class="form-group col-12 col-lg-5 mb-2">
+                    <div class="py-3 invisible-xs"></div>
+                    <label class="pt-5 mb-4" for="">Date of Birth</label>
+                    <div class="p-1 input-group has-validation">
+                    <input type="date" class="form-control" max="2009-12-31" id="validationTooltip01"required> 
+                    </div>
+                 
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback text-maxy">Please fill out this field.</div>
+                
+                </div>
+            
+
+                
+            </form>
+
+            
+            <br><hr><br>
+            <h4>Background Information</h4>
+            <div id="show-backgroundInfo">
+                
+                <br>
+            <form action="" class="was-validated d-flex justify-content-center row">
+                    <!-- <div class="row"> -->
+                        <!-- <div class= "col-12 col-lg-4"></div> -->
+                        <div class="col-12 col-lg-4">
+                            <label for="" class="py-2 mb-1">When was the first day of your last menstrual period? </label>
+                            <div class="input-group has-validation">
+                                <input type="date" class="form-control" max="2009-12-31" id= "datefield" required> 
+                                </div>
+            
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback text-maxy">Please fill out this field.</div>
+                        </div>
+                        <!-- <div class= "col-12 col-lg-4"></div> -->
+                    </div>
+                    <br>
+                    
+                        <label for="" class="py-2 mb-1">Do you think you might be pregnant now?</label>
+                        <br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="1a" id="inlineRadio1a" value="Yes">
+                            <label class="form-check-label" for="inlineRadio1a">Yes</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="1a" id="inlineRadio2a" value="No">
+                            <label class="form-check-label" for="inlineRadio2a">No</label>
+                        </div>
+                        <br><br>
+
+                      
+                    <div class="text-center">
+                        <label for="" class="py-2 mb-1">Do you smoke cigarettes?</label>
+                        <br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="2a" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="2a" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">No</label>
+                        </div>
+                     </div>
+                     <br>
+                     
+                <label for="" class="py-2 mb-1">Have you ever taken birth control pills, or used a birth control patch, ring, or injection? </label>
+                <br>
+                    <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="3a" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="3a" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">No</label>
+                    </div>
+                    <br><br>
+
+                    <label for="" class="py-2 mb-1">Have you ever been told by a medical professional not to take hormones?</label>
+                    <br>
+                    <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="4a" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="4a" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">No</label>
+                    </div>
+                </form>
+            
+            <br><br>
+            
+                
+                
+                <form action="" class="was-validated row d-flex justify-content-center">
+                    <div class="form-group col-12 col-lg-7 has-validation">
+                    <label for="" class="py-2 mb-1">Did you ever experience a bad reaction to using hormonal birth control?</label>
+                    <p>If yes, what kind of reaction occurred?</p>
+                        
+                        <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" onclick="enableYesInputB(this.checked)" required>
+                        <label class="form-check-label ms-1 me-2" for="validationFormCheck2">Yes</label>
+                        
+                        <input type="radio" class="form-check-input me-1 ms-2" id="validationFormCheck3" name="radio-stacked"  onclick="disableInputB(this.checked)" required>
+                        <label class="form-check-label me-1 " for="validationFormCheck3">No</label>
+                        
+        
+                    <input type="text" class="my-3 form-control" disabled id="yesHormonal"> 
+                    <div class="invalid-feedback text-maxy">Please select answer.</div>
+                    
+                    </div>
+                </form>
+                <br>
+                <form action="" class="was-validated row d-flex justify-content-center">
+                        <div class="col-12 col-lg-7 form-group ">
+                            <label for="" class="py-2 mb-1">Are you currently using any method of birth control including pills, or a birth control patch, ring or shot/injection? If yes, which one do you use? </label>
+                        
+
+                                <input type="radio" class="form-check-input" id="validationFormCheck4" name="radio-stacked" onclick="enableYesInputC(this.checked)" required>
+                                <label class="form-check-label mx-2" for="validationFormCheck4">Yes</label>
+                      
+                                <input type="radio" class="ms-1 form-check-input" id="validationFormCheck4" name="radio-stacked"  onclick="disableInputC(this.checked)" required>
+                                <label class="form-check-label " for="validationFormCheck4">No</label>
+
+                                <input type="text" class="my-3 form-control" id="yesMethodBC" disabled>
+                                <div class="invalid-feedback text-maxy">Please select answer.</div>
+                                <br><br>
+                        </div>
+                    </form>
+                
+                    
+               
+                    
+            
+                         
+       
+            <hr>
+            <h4>Medical History</h4>
+            <div id="show-medicalHistory">
+                    <br>
+            <form action="" class="was-validated row d-flex justify-content-center">
+                    <div class = "col-12 col-lg-6">
+                        <label for="" class="py-2 mb-1">Have you given birth within the past 21 days?</label>
+                        <p>If yes, how long ago?</p> 
+        
+
+                        <input type="radio" class="form-check-input" id="validationFormCheck4" name="radio-stacked" onclick="enableYesInputD(this.checked)" required>
+                        <label class="form-check-label mx-2" for="validationFormCheck4">Yes</label>
+                      
+                        <input type="radio" class="mx-1 ms-2 form-check-input" id="validationFormCheck4" name="radio-stacked"  onclick="disableInputD(this.checked)" required>
+                        <label class="form-check-label " for="validationFormCheck4">No</label>
+
+                        <input type="text" class="my-3 form-control" id="yesGivenBirth" disabled>
+                        <div class="invalid-feedback text-maxy">Please select answer.</div>
+                    <br>
+                    </div>
+                 
+            </form>
+
+                <label for="" class="py-2 mb-1">Have you had a recent change in vaginal bleeding that worries you?</label>
+                <br>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+                </div>
+            <br><br>
+                
+                
+            
+            
+                    
+            
+            <div class="text-center"> 
+                <label for="" class="py-2 mb-1">Are you currently breastfeeding?</label>
+                <br>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+                </div>
+            </div>
+                
+            <br>
+            <div class="text-center">  
+                <label for="" class="py-2 mb-1">Do you have diabetes?</label>
+                <br>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+                </div>
+            </div>
+            
+            <br>
+            <div class="text-center"> 
+                <label for="" class="py-2 mb-1">Are you being treated for inflammatory bowel disease? </label>
+                <br>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+                </div>
+            </div>
+            
+            <br>
+            <div class="text-center"> 
+                <label for="" class="py-2 mb-1">Have you had recent major surgery or are you planning to have surgery in the next 4 weeks?</label>
+                <br>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="d-grid">
+            <button onclick="submit" class="btn btn-carmine mx-2">Submit</button>
+        </div>
+            <br>
+            <br>    
+        </div>
+    </div>
+        <br><br>
+    <!-- end of form -->
+
+    <div class="container">
+
+
+        <div class=" col-12 pt-5 text-center p-2 bg-diamond">
+            <h2>Book an Appointment</h2>
+            <div class="container-fluid">
+                <div id="container">
+                    <div id="header">
+                      <h3 class="text-center py-2" id="monthDisplay"></h3>
+                      <div class="text-center pb-5">
+                        <button class="btn btn-jindigo" id="backButton">Back</button>
+                        <button class="btn btn-jindigo" id="nextButton">Next</button>
+                      </div>
+                    </div>
+              
+                    <div class="clRow text-jindigo text-center py-2 my-2 bg-maxy" id="weekdays">
+                      <div><h6>Su</h6></div>
+                      <div><h6>Mo</h6></div>
+                      <div><h6>Tu</h6></div>
+                      <div><h6>We</h6></div>
+                      <div><h6>Th</h6></div>
+                      <div><h6>Fr</h6></div>
+                      <div><h6>Sa</h6></div>
+                    </div>
+              
+                    <div class="grid text-center" id="calendar"></div>
+                  </div>
+              
+                  <div class="text-jsan text-center bg-jindigo text-maxy" id="newEventModal">
+                    <h2>New Event</h2>
+              
+                    <input id="eventTitleInput" placeholder="Event Title" />
+              
+                    <button class="btn btn-outline-maxy" id="saveButton">Save</button>
+                    <button class="btn btn-outline-maxy" id="cancelButton">Cancel</button>
+                  </div>
+              
+                  <div class="text-jsan text-center bg-jindigo text-maxy" id="deleteEventModal">
+                    <h2>Event</h2>
+              
+                    <p id="eventText"></p>
+              
+                    <button class="btn btn-outline-maxy" id="deleteButton">Delete</button>
+                    <button class="btn btn-outline-maxy" id="closeButton">Close</button>
+                  </div>
+              
+                  <div id="modalBackDrop"></div>
+            </div>
+        </div>
+        <br>
+        
+    </div>
+    <!-- Start of Messenger Plugin  -->
+            <!-- Messenger Chat Plugin Code -->
+            <div id="fb-root"></div>
+
+            <!-- Your Chat Plugin code -->
+            <div id="fb-customer-chat" class="fb-customerchat">
+            </div>
+
+            <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "101599836032258");
+            chatbox.setAttribute("attribution", "biz_inbox");
+            </script>
+
+            <!-- Your SDK code -->
+            <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                xfbml            : true,
+                version          : 'v14.0'
+                });
+            };
+
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            </script>
+    <!-- End of Messenger Plugin  -->
+    <br>
+    <!-- Start of Footer -->
+    <footer class="row bg-jindigo text-bubbles p-1 text-party">
+        <div class="container-fluid bg-jindigo text-bubbles">
+            <div class="row">
+                <div class="col-12 col-lg-1"></div>
+                <div class="col-12 col-lg-3">
+                    <br><br>
+                    <h3 class="text-maxy">JOIN US</h3>
+                    <p class="text-justify">Artemis Organization currently has over 6,000 members, from over 180 countries. Our members are part of a powerful base of feminist, women’s rights and gender justice defenders, activists and allies, connecting, exchanging, learning and acting together for transformative change.</p>
+                    <button class="btn btn-lg btn-carmine text-jindigo hover-maxy hover-big" data-bs-toggle="modal" data-bs-target="#Donate"> BE A SPONSOR NOW</button>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <br><br>
+                    <h3 class="text-carmine">DONATE</h3>
+                    <p class="text-justify">You can also show your support for transformative change by making a donation to Artemis Organization. Your valuable contribution will help sustain the work we do across the globe to support women and youth in the poorest communities to achieve sexual and reproductive health and rights.
+
+                    </p>
+                    <button class="btn btn-lg btn-maxy text-jindigo hover-carmine hover-big"  data-bs-toggle="modal" data-bs-target="#Donate">DONATE NOW</button>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <br><br>
+                    <h3 class="text-bubbles">Connect with us</h3>
+                    <a class="col-1 text-decoration-none" href="">
+                        <i class="hover-gradient text-bubbles hover-big p-2 rounded-circle bg-jindigo fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a class="col-1 text-decoration-none" href="">
+                        <i class="hover-gradient text-bubbles hover-big p-2 rounded-circle bg-jindigo fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a class="col-1 text-decoration-none" href="">
+                        <i class="hover-gradient text-bubbles hover-big p-2 rounded-circle bg-jindigo fa-brands fa-twitter fa-2x"></i>
+                    </a>
+                    <p>Join the conversation and stay connected with the community. Receive a regular selection of feminist analysis, resources and ways to get involved with the movements.</p>
+                    
+                    <form action="" class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter Email Address"/>
+                        <button class="btn btn-lg btn-outline-bubbles text-bubbles hover-jindigo hover-big">SIGN ME UP</button>
+                     </form>
+                    <!-- <button data-bs-toggle="modal" data-bs-target="#nLetter" class="btn btn-lg btn-outline-bubbles text-bubbles hover-jindigo hover-big">SIGN ME UP</button> -->
+                </div>
+                
+            </div>
+            <br><br>
+        </div>
+        <hr>
+
+        <div class="col-12 col-md-3 pt-2 pb-2 text-center">
+            <img src="ARTEMISlogoDark.png" alt="logo">
+            <h5 class="hover-big hover-maxy" >Address:  27 Ofelia St., Ofelia Village, Bgy, Project 8, Quezon City, 1106 Metro Manila</h5>
+            <h5 class="hover-big hover-maxy" >Phone: (02) 3454 3854</h5>
+            <h5 class="hover-big hover-maxy" >Email: office@artemis.org</h5>
+        </div>
+        <div class="col-12 col-md-3  text-center">
+            <div class="invisible-xs py-5">
+                <br><br>
+            </div>
+            <h3 class="pt-2 text-play" >About Us</h3>
+            <ul class="list-unstyled mb-0 ">
+                <li class=" hover-big">
+                    <a href="About.html" class=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">Who We Are</a>
+                </li>
+                <li class="hover-big">
+                    <a href="About.html#whatwedo" class=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">What We Do</a>
+                </li>
+                <li class="hover-big">
+                    <a href="About.html#FAQ" class=" pt-1  text-play hover-maxy pointer text-bubbles text-decoration-none ">FAQ's</a>
+                </li> 
+            </ul>
+            
+        </div>
+        <div class="col-12 col-md-3 text-center">
+            <div class="invisible-xs py-5">
+                <br><br>
+            </div>
+            <h3 class="pt-2 text-play" >Stay Informed</h3>
+            <ul class="list-unstyled mb-0 ">
+                <li class="hover-big">
+                    <a href="Articles.html#articles" class=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">Articles</a>
+                </li>
+                <li class="hover-big"   >
+                    <a href="Articles.html" class=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">Project Highlights</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-3 text-center">
+            <div class="invisible-xs py-5">
+                <br><br>
+            </div>
+            <h3 class="pt-2 text-play" >Get Involved</h3>
+            <ul class="list-unstyled mb-0 ">
+                <li class=" hover-big">
+                    <a  class=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none " data-bs-toggle="modal" data-bs-target="#Donate">Donate</a>
+                </li>
+                <li class="hover-big">
+                    <a  class=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none " data-bs-toggle="modal" data-bs-target="#Donate">Become a Sponsor</a>
+                </li>
+                <li class="hover-big">
+                    <a  class=" pt-1  text-play hover-maxy pointer text-bubbles text-decoration-none ">Events</a>
+                </li> 
+            </ul>
+        </div>
+        <hr>
+        <div class="col-12 text-center">
+            © 2022 Copyright
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+        <div class="modal" id="Donate">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-md-down modal-xl">
+                <div class="modal-content text-play">
+                    <div class="modal-header bg-jindigo text-bubbles">
+                        <h2>Donate Now!</h2>
+                        <button class="btn btn-outline-carmine" data-bs-dismiss="modal">
+                            X
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    
+                        <div class="row text-jindigo">
+                            <div class="col-1"></div>
+                            <div class="col-4">
+                                <img class="img-fluid w-100" src="ARTEMISFinal.png" alt="" >
+                            </div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <p class="text-start col-12 text-jindigo"> A nonprofit oraganization working with women and youth in the poorest communities to achieve sexual and reproductive health and rights.
+                                        
+                                    </p>
+                                </div>
+
+                                <div class="row">
+                                <p class="text-start col-12 text-jindigo"> 
+                                    We do community organizing, primary care clinics for women and youth, policy advocacy.
+                                </p>
+                                </div>
+                            </div>
+                            <hr>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-6 col-lg-6">
+                                        <img class="img-fluid w-100" src="Images/BDO.png" alt="" >
+                                    </div>
+                                    <div class="col-6 col-lg-6">
+                                        <h4 > Banco De Oro</h4>
+                                        <h6>Account Name:</h6>
+                                        <h5 class="font-weight-bold">Artemis Organization</h5>
+                                        <h6>Account Number:</h6>
+                                        <h5 class="font-weight-bold">00 123 456 7890</h5>
+
+                                    </div>
+                                    
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-6 col-lg-6">
+                                        <img class="img-fluid w-100" src="Images/robinsonsbank.png" alt="" >
+                                    </div>
+                                    <div class="col-6 col-lg-6">
+                                        <h4 >Robinsons Bank</h4>
+                                        <h6>Account Name:</h6>
+                                        <h5 class="font-weight-bold">Artemis Organization</h5>
+                                        <h6>Account Number:</h6>
+                                        <h5 class="font-weight-bold">00 123 456 7890</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                
+                                <div class="row">
+                                    <div class="col-6 col-lg-6">
+                                        <img class="img-fluid w-100" src="Images/Gcash.png" alt="" >
+                                    </div>
+                                    <div class="col-6 col-lg-6">
+                                        <h4 >Gcash</h4>
+                                        <h6>Account Name:</h6>
+                                        <h5 class="font-weight-bold">Artemis Organization</h5>
+                                        <h6>Gcash Number:</h6>
+                                        <h5 class="font-weight-bold">09 99 123 4567</h5>
+
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-6 col-lg-6">
+                                        <img class="img-fluid w-100" src="Images/PayPal.png" alt="" >
+                                    </div>
+                                    <div class="col-6 col-lg-6">
+                                        <h4 >Paypal</h4>
+                                        <h6>Paypal Email:</h6>
+                                        <h5 class="font-weight-bold">office@artemis.org</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="SignIn">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-md-down modal-xl">
+                <div class="modal-content text-play">
+                    <div class="modal-header bg-jindigo text-bubbles">
+                        <h2>Login/Sign Up</h2>
+                        <button class="btn btn-outline-carmine" data-bs-dismiss="modal">
+                            X
+                        </button>
+                    </div>
+                    <div class="modal-body px-3">
+                        <div class="row text-center text-jsan">
+                            <div class="col-12 col-lg-6 text-center text-play">
+                                <div class="d-grid">
+                                    <button class="btn btn-diamond my-1 text-jindigo">Login with Facebook</button>
+                                    <button class="btn btn-jindigo my-1 text-bubbles">Login with Twitter</button>
+                                    <button class="btn btn-carmine my-1 text-bubbles">Login with Google+</button>
+                                </div>
+                            </div>
+                            <hr class="invisible-lg-up my-3">
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-grid">
+                                    <input type="text" class="rounded my-1 form-control" placeholder="Username">
+                                    <input type="text" class="rounded my-1 form-control" placeholder="Password"> 
+                                    <button class="btn btn-maxy my-1">Login</button>
+                                </div>
+                            </div>
+    
+                            <hr class="my-3">
+                        
+                            <div class="col-6">
+                                <h5 class="py-2 hover-carmine pointer">
+                                    Sign Up
+                                </h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="py-2 hover-carmine pointer">
+                                    Forgot password?
+                                </h5>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="js\bootstrap.bundle.js"></script>
+<script src="js\calendar.js"></script>
+<script>
+
+    function enableYesInputA(){
+      document.getElementById("Allergies-List").disabled = false;
+    }
+
+    function disableInputA(){
+    document.getElementById("Allergies-List").disabled = true;
+ 
+    }
+
+    function enableYesInputB(){
+      document.getElementById("yesHormonal").disabled = false;
+    }
+
+    function disableInputB(){
+    document.getElementById("yesHormonal").disabled = true;
+ 
+    }
+
+    function enableYesInputC(){
+      document.getElementById("yesMethodBC").disabled = false;
+    }
+
+    function disableInputC(){
+    document.getElementById("yesMethodBC").disabled = true;
+ 
+    }
+
+    function enableYesInputD(){
+      document.getElementById("yesGivenBirth").disabled = false;
+    }
+
+    function disableInputD(){
+    document.getElementById("yesGivenBirth").disabled = true;
+ 
+    }
+
+    function phoneFormat(input) {//returns (###) ###-####
+        input = input.replace(/\D/g,'');
+        var size = input.length;
+        if (size>0) {input="("+input}
+        if (size>3) {input=input.slice(0,4)+") "+input.slice(4,11)}
+        if (size>6) {input=input.slice(0,9)+"-" +input.slice(9)}
+    return input;
+    }
+    function ValidateEmail(inputText){
+        const email = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        let form = document.getElementById("ValidateEmail");
+        let message  =  document.getElementById("form-email");
+        if(email.test(inputText) === true)
+        {
+            message.classList.remove("text-maxy");
+            message.classList.add("text-jindigo");
+        } 
+    }
+
+    // restrictions for 1st day of last menstrual period
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth() + 1; //January is 0!
+    var yyyy = today.getFullYear();
+
+    if (dd < 10) {
+    dd = '0' + dd;
+    }
+
+    if (mm < 10) {
+    mm = '0' + mm;
+    } 
+        
+    today = yyyy + '-' + mm + '-' + dd;
+    document.getElementById("datefield").setAttribute("max", today);
+    
+   
+        
+</script>
+</html>
