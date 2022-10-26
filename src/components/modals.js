@@ -117,9 +117,9 @@ const Modals = () => {
                             <div class="row text-center text-jsan">
                                 <div class="col-12 col-lg-6 text-center text-play">
                                     <div class="d-grid">
-                                        <button class="btn btn-diamond my-1 text-jindigo"><i class="mx-3 fa-brands fa-facebook-f"></i>Login with Facebook</button>
-                                        <button class="btn btn-jindigo my-1 text-bubbles"><i class="mx-2 me-4 fa-brands fa-twitter"></i>Login with Twitter</button>
-                                        <button class="btn btn-carmine my-1 text-bubbles"><i class="mx-3 fa-brands fa-google-plus-g"></i>Login with Google+</button>
+                                        <button class="btn btn-facebook my-1 text-bubbles"><i class="mx-3 fa-brands fa-facebook-f"></i>Login with Facebook</button>
+                                        <button class="btn btn-twitter my-1 text-bubbles"><i class="mx-2 me-4 fa-brands fa-twitter"></i>Login with Twitter</button>
+                                        <button class="btn btn-google my-1 text-bubbles"><i class="mx-3 fa-brands fa-google-plus-g"></i>Login with Google+</button>
                                     </div>
                                 </div>
                                 <hr class="invisible-lg-up my-3" />
