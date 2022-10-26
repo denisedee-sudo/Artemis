@@ -1,6 +1,7 @@
 export { default as Navbar } from "./navbar";
 export { default as Footer } from "./footer";
 export { default as Carousel } from "./carousel";
+export { default as Modals } from "./modals";
 export { default as Home } from "../pages/home";
 export { default as Articles } from "../pages/articles";
 export { default as About } from "../pages/about";

@@ -9,6 +9,7 @@ import "./sass/main.scss";
 import {
   Navbar,
   Footer,
+  Modals,
   // Carousel,
   Home,
   About,
@@ -31,6 +32,7 @@ root.render(
       <Route path="/Artemis/admin" element={<Admin />} />
     </Routes>
     <Footer></Footer>
+    <Modals></Modals>
   </Router>
 );
 
