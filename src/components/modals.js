@@ -12,7 +12,7 @@ const Modals = () => {
                     <div class="modal-content text-play">
                         <div class="modal-header bg-jindigo text-bubbles">
                             <h2>Donate Now!</h2>
-                            <button class="btn btn-outline-carmine" data-bs-dismiss="modal">
+                            <button class="btn btn-outline-carmine text-bubbles" data-bs-dismiss="modal">
                                 X
                             </button>
                         </div>
@@ -109,7 +109,7 @@ const Modals = () => {
                     <div class="modal-content text-play">
                         <div class="modal-header bg-jindigo text-bubbles">
                             <h2>Login/Sign Up</h2>
-                            <button class="btn btn-outline-carmine" data-bs-dismiss="modal">
+                            <button class="btn btn-outline-carmine text-bubbles" data-bs-dismiss="modal">
                                 X
                             </button>
                         </div>
