@@ -1,5 +1,8 @@
 import React from 'react';
-
+import { a1,
+    a2,
+    a3,
+    abp } from "../components/forExport";
 
 const About = () => {
     return ( 
@@ -7,7 +10,7 @@ const About = () => {
         <div class="container  text-jindigo text-jsan">
 
                 <div class="text-center">
-                    <img src="Images/aboutpage.png" alt="" class="img-fluid w-100 " />
+                    <img src={abp} alt="" class="img-fluid w-100 " />
                     <br /><br />
                 </div>
 
@@ -39,14 +42,14 @@ const About = () => {
                     </p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img src="Images/1.png" alt="" class="img-fluid w-100 my-5 rounded shadow-lg hover-big" />
+                    <img src={a1} alt="" class="img-fluid w-100 my-5 rounded shadow-lg hover-big" />
                 </div>
             </div>
        
 
             <div class="container-fluid bg-diamond row text-jindigo text-jsan">
                 <div class="col-12 col-lg-6 ">
-                    <img src="Images/2.png" alt="" class="img-fluid w-100 my-5 rounded shadow-lg hover-big" />
+                    <img src={a2} alt="" class="img-fluid w-100 my-5 rounded shadow-lg hover-big" />
                 </div>
 
                 <div class="col-12 col-lg-6 text-start" id="whatwedo">
@@ -80,7 +83,7 @@ const About = () => {
                 </div>
 
                 <div class="col-12 col-lg-6">
-                    <img src="Images/3.png" alt="" class="img-fluid w-100 my-5 rounded shadow-lg hover-big"/>
+                    <img src={a3} alt="" class="img-fluid w-100 my-5 rounded shadow-lg hover-big"/>
                 </div>
 
             </div>

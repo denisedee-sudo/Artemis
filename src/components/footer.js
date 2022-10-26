@@ -1,16 +1,4 @@
-import { artemisLogoPNG, 
-    artemisLogoSVG, 
-    artemisFinalPNG, 
-    artemisLogoDark, 
-    artemisLogoDarkPNG, 
-    bdo, 
-    emrgncyC,
-    gcash, 
-    paymaya, 
-    paypal, 
-    perf,
-    robinson,
-    sample } from "../components/forExport";
+import { artemisLogoDarkPNG } from "../components/forExport";
 
 const Footer = () => {
     return ( 
@@ -58,7 +46,7 @@ const Footer = () => {
         <hr />
 
         <div className="col-12 col-md-3 pt-2 pb-2 text-center">
-            <img src={{artemisLogoDarkPNG}} alt="logo" />
+            <img src={artemisLogoDarkPNG} alt="logo" />
             <h5 className="hover-big hover-maxy" >Address:  27 Ofelia St., Ofelia Village, Bgy, Project 8, Quezon City, 1106 Metro Manila</h5>
             <h5 className="hover-big hover-maxy" >Phone: (02) 3454 3854</h5>
             <h5 className="hover-big hover-maxy" >Email: office@artemis.org</h5>

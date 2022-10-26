@@ -3,13 +3,26 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { NavLink } from "react-router-dom";
+import { artemisFinalPNG } from "../components/forExport"; 
+    // artemisLogoPNG, 
+    // artemisLogoSVG,
+    // artemisLogoDark, 
+    // artemisLogoDarkPNG, 
+    // bdo, 
+    // emrgncyC,
+    // gcash, 
+    // paymaya, 
+    // paypal, 
+    // perf,
+    // robinson,
+    // sample } from "../components/forExport";
 
 const Navbar = () => {
     return ( 
         <div>
             <nav className="navbar navbar-expand-lg  fixed-top text-play bg-diamond">
                 <a className="navbar-brand p-3 text-jindigo hover-big" href="index.html">
-                    {/* <img src="ARTEMISFinal.png" alt="logo" height="60px"> */}
+                    <img src={artemisFinalPNG} alt="logo" height="60px" />
                 </a>
                 <div className="collapse navbar-collapse" id="bar-toggle">
                     <ul className="navbar-nav text-center">
