@@ -10,7 +10,7 @@ const Footer = () => {
                     <br/>
                     <h3 className="text-maxy">JOIN US</h3>
                     <p className="text-justify">Artemis Organization currently has over 6,000 members, from over 180 countries. Our members are part of a powerful base of feminist, women’s rights and gender justice defenders, activists and allies, connecting, exchanging, learning and acting together for transformative change.</p>
-                    <button className="btn btn-danger text-jindigo hover-maxy btn-lg">BE A SPONSOR NOW</button>
+                    <button className="btn btn-carmine text-jindigo hover-maxy btn-lg">BE A SPONSOR NOW</button>
                     </div>
                 </div>
                 <div className="col-12 col-lg-3">
@@ -20,7 +20,7 @@ const Footer = () => {
                         <p className="text-justify">You can also show your support for transformative change by making a donation to Artemis Organization. Your valuable contribution will help sustain the work we do across the globe to support women and youth in the poorest communities to achieve sexual and reproductive health and rights.
 
                         </p>
-                        <button className="btn btn-lg btn-warning text-jindigo hover-carmine hover-big"  data-bs-toggle="modal" data-bs-target="#Donate">DONATE NOW</button>
+                        <button className="btn btn-lg btn-maxy text-jindigo hover-carmine hover-big"  data-bs-toggle="modal" data-bs-target="#Donate">DONATE NOW</button>
                     </div>
                 </div>
                 <div className="col-12 col-lg-4">
