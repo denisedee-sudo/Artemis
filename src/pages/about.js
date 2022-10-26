@@ -33,8 +33,8 @@ const About = () => {
                 <br /><br />     
 
 
-            <div class="row container-fluid" id="whoweare">
-                <div class="col-12 col-lg-6 text-start">
+            <div class="row container-fluid" >
+                <div class="col-12 col-lg-6 text-start" id="whoweare">
                     <br />
                     <h2 class="text-play">WHO WE ARE</h2>
                     <p class="text-start " >

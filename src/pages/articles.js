@@ -13,7 +13,7 @@ const Articles = () => {
             <div class="col-12 text-jindigo text-center">
                 <div class="container input-group">
                     <input type="text" class="form-control" />
-                    <button class="btn btn-jindigo">Search   <i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="btn btn-jindigo text-bubbles">Search   <i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
             </div>
         </div>
