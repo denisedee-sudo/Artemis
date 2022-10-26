@@ -40,47 +40,10 @@ const Home = () => {
                 </div>
         
               </div>
-              <br /><br />
-            {/* <div class="bg-carmine col-12 pt-5 text-bubbles text-center">
-                <h1 class="text-bubbles p-3">
-                    Welcome to Our Website
-                </h1>
-                <p class="p-3">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates tenetur consectetur ullam ducimus tempora quibusdam aspernatur eos at alias quisquam. Officia expedita reprehenderit impedit voluptas magnam voluptatum nesciunt esse commodi.
-                </p>
-            </div> */} 
-    
-            {/* <div class="row">
-                <div class="col-lg-6 col-12">
-                    <div class="text-center  container-fluid bg-diamond">
-                        <h2 class="p-3">Donate Now</h2>
-                        <p class="p-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fugiat mollitia neque, cum excepturi maxime delectus amet? In corporis cumque vero quis, aliquam iusto adipisci rerum totam quae pariatur. Aut?
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="text-center container-fluid bg-diamond">
-                        <h2 class="p-3">Book Appointment</h2>
-                        <p class="p-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fugiat mollitia neque, cum excepturi maxime delectus amet? In corporis cumque vero quis, aliquam iusto adipisci rerum totam quae pariatur. Aut?
-                        </p>
-                    </div>
-                </div>        
-            </div> */} 
-
-            
+              <br /><br />           
     
             <div class="bg-carmine text-bubbles col-12 pt-5 p-3 text-center">
                 <h2>Office Locations</h2>
-                {/* <p class="p-3">
-                    To find an office location near you,
-                </p> */} 
-                {/* <div class="d-grid mb-3">
-                    <button data-bs-target="#office" data-bs-toggle="modal" class="btn btn-maxy">
-                        Click Here
-                    </button>
-                </div> */} 
                 <div class="container py-2">
                     <div class="row">
                         <div class="col-md-6">
@@ -181,21 +144,6 @@ const Home = () => {
                                 Together with the Safe in Cyberspace Youth Fellowship  and UP Center for Women&#039;s and...</p>Posted by <a href="https://www.facebook.com/ArtemisHealthNGO/">Artemis Organization</a> on&nbsp;<a href="https://www.facebook.com/ArtemisHealthNGO/posts/102144049311170">Sunday, September 4, 2022</a></blockquote></div>
                         </div>
                 </div>
-                {/* <div class="col-lg-6 col-12">
-                    <div class="text-center  container-fluid py-4 bg-diamond"  style="max-height: 1018px; overflow-y: scroll;">
-                        <h2 class="p-3">Facebook Feed</h2>
-                        <div class="fb-post container-fluid p-1" data-href="https://web.facebook.com/ArtemisHealthNGO/posts/pfbid0xkWduf58SNCihmfstVM5HnoBPAjSpMfBngXG3HmoiDygjL5dRXezsDGgaTN1RMkDl" data-width="" data-show-text="true"><blockquote cite="https://www.facebook.com/ArtemisHealthNGO/posts/102331439292431" class="fb-xfbml-parse-ignore"><p>Anti-VAW (violence against women) info</p>Posted by <a href="https://www.facebook.com/ArtemisHealthNGO/">Artemis Organization</a> on&nbsp;<a href="https://www.facebook.com/ArtemisHealthNGO/posts/102331439292431">Monday, September 5, 2022</a></blockquote></div>
-                        <div class="fb-post container-fluid p-1 f-post" data-href="https://www.facebook.com/ArtemisHealthNGO/posts/pfbid02G94r7J3ovnmp1CKHhqHkBYPdc6NKHMSjyPMStA6rYEgwugADi78RXgQv4YuwJGbjl" data-width="" data-show-text="true"><blockquote cite="https://www.facebook.com/ArtemisHealthNGO/posts/102144049311170" class="fb-xfbml-parse-ignore"><p>PSA: HAVING SAFE SEX IS AN OPTION!
-                            Together with the Safe in Cyberspace Youth Fellowship  and UP Center for Women&#039;s and...</p>Posted by <a href="https://www.facebook.com/ArtemisHealthNGO/">Artemis Organization</a> on&nbsp;<a href="https://www.facebook.com/ArtemisHealthNGO/posts/102144049311170">Sunday, September 4, 2022</a></blockquote></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="text-center container-fluid py-4 bg-diamond">
-                        <h2 class="p-3">Featured Posts</h2>
-                        <div class="fb-post container-fluid p-1 f-post" data-href="https://www.facebook.com/ArtemisHealthNGO/posts/pfbid02G94r7J3ovnmp1CKHhqHkBYPdc6NKHMSjyPMStA6rYEgwugADi78RXgQv4YuwJGbjl" data-width="" data-show-text="true"><blockquote cite="https://www.facebook.com/ArtemisHealthNGO/posts/102144049311170" class="fb-xfbml-parse-ignore"><p>PSA: HAVING SAFE SEX IS AN OPTION!
-                            Together with the Safe in Cyberspace Youth Fellowship  and UP Center for Women&#039;s and...</p>Posted by <a href="https://www.facebook.com/ArtemisHealthNGO/">Artemis Organization</a> on&nbsp;<a href="https://www.facebook.com/ArtemisHealthNGO/posts/102144049311170">Sunday, September 4, 2022</a></blockquote></div>
-                    </div>
-                </div>         */} 
             </div>
             <br />
         </div>
