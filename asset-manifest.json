@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Artemis/static/css/main.fdbe1a0a.css",
-    "main.js": "/Artemis/static/js/main.a79d7807.js",
+    "main.css": "/Artemis/static/css/main.1c154e6c.css",
+    "main.js": "/Artemis/static/js/main.176995aa.js",
     "static/js/787.b2399ba5.chunk.js": "/Artemis/static/js/787.b2399ba5.chunk.js",
     "static/media/perfectly imperfect info.jpg": "/Artemis/static/media/perfectly imperfect info.9a4e0ad201037769c35d.jpg",
     "static/media/carousel1.png": "/Artemis/static/media/carousel1.49420712ea53db3417e4.png",
@@ -9,16 +9,16 @@
     "static/media/carousel3.png": "/Artemis/static/media/carousel3.5890359dfafbb2ac3449.png",
     "static/media/articles page.png": "/Artemis/static/media/articles page.4c4ee598ea6a8ee37432.png",
     "static/media/emergency-contraception-infographic.png": "/Artemis/static/media/emergency-contraception-infographic.f735a662d1f0379ec750.png",
+    "static/media/1.png": "/Artemis/static/media/1.163cf382bb2576b1eb31.png",
+    "static/media/2.png": "/Artemis/static/media/2.4a526cd6e3fd4d943753.png",
     "static/media/articles page4.png": "/Artemis/static/media/articles page4.4cba27be4ba008e66c34.png",
     "static/media/articles page2.png": "/Artemis/static/media/articles page2.ba7f88654568b4a6eb0a.png",
     "static/media/articles page3.png": "/Artemis/static/media/articles page3.be06fafe33bb92f0bca5.png",
     "static/media/carousel2.png": "/Artemis/static/media/carousel2.d1583753f8ce03c26e0a.png",
     "static/media/Artemis logo.png": "/Artemis/static/media/Artemis logo.b234ec2ee167848b6874.png",
-    "static/media/1.png": "/Artemis/static/media/1.730d5e2424b04fa8d397.png",
     "static/media/Artemis Logo.svg": "/Artemis/static/media/Artemis Logo.f2a05fa66b787b573e9dd0ab3485ff5f.svg",
     "static/media/3.png": "/Artemis/static/media/3.a4aa16f681e46c920975.png",
     "static/media/paymaya.png": "/Artemis/static/media/paymaya.69021e985df26328e1dc.png",
-    "static/media/2.png": "/Artemis/static/media/2.5034ba45ed4682f6f4d2.png",
     "static/media/PayPal.png": "/Artemis/static/media/PayPal.eeb5913a0679bf08c1c6.png",
     "static/media/BDO.png": "/Artemis/static/media/BDO.b4b77b8326fa2f1b970c.png",
     "static/media/ARTEMISlogoDark.png": "/Artemis/static/media/ARTEMISlogoDark.5480d7ae36e4c310bd0e.png",
@@ -28,12 +28,12 @@
     "static/media/sampleIMG.svg": "/Artemis/static/media/sampleIMG.880e44dbc54ca56cfbadb185b89a9b8c.svg",
     "static/media/ARTEMISlogoDark.ico": "/Artemis/static/media/ARTEMISlogoDark.72d8bb074471a20712e8.ico",
     "index.html": "/Artemis/index.html",
-    "main.fdbe1a0a.css.map": "/Artemis/static/css/main.fdbe1a0a.css.map",
-    "main.a79d7807.js.map": "/Artemis/static/js/main.a79d7807.js.map",
+    "main.1c154e6c.css.map": "/Artemis/static/css/main.1c154e6c.css.map",
+    "main.176995aa.js.map": "/Artemis/static/js/main.176995aa.js.map",
     "787.b2399ba5.chunk.js.map": "/Artemis/static/js/787.b2399ba5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdbe1a0a.css",
-    "static/js/main.a79d7807.js"
+    "static/css/main.1c154e6c.css",
+    "static/js/main.176995aa.js"
   ]
 }
