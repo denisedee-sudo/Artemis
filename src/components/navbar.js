@@ -21,9 +21,9 @@ const Navbar = () => {
     return ( 
         <div>
             <nav className="navbar navbar-expand-lg  fixed-top text-play bg-diamond">
-                <a className="navbar-brand p-3 text-jindigo hover-big" href="index.html">
+                <p className="navbar-brand p-3 pointer hover-big pointer" >
                     <img src={artemisFinalPNG} alt="logo" height="60px" />
-                </a>
+                </p>
                 <div className="collapse navbar-collapse" id="bar-toggle">
                     <ul className="navbar-nav text-center">
                         <li className="nav-item ">

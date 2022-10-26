@@ -9,6 +9,7 @@ import "./sass/main.scss";
 import {
   Navbar,
   Footer,
+  // Carousel,
   Home,
   About,
   Articles,

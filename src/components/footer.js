@@ -2,9 +2,7 @@ import { artemisLogoDarkPNG } from "../components/forExport";
 
 const Footer = () => {
     return ( 
-    <footer className="row bg-jindigo text-bubbles p-1 text-play">
-        <div className="container-fluid bg-jindigo text-bubbles">
-            <div className="row">
+    <footer className="row bg-jindigo text-bubbles py-1 text-play">
                 <div className="col-12 col-lg-1"></div>
                 <div className="col-12 col-lg-3">
                     <br/><br/>
@@ -40,10 +38,8 @@ const Footer = () => {
                      </form>
                 </div>
                 
-            </div>
             <br/><br/>
-        </div>
-        <hr />
+            <hr />
 
         <div className="col-12 col-md-3 pt-2 pb-2 text-center">
             <img src={artemisLogoDarkPNG} alt="logo" />

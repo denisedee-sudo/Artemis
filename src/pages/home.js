@@ -14,7 +14,6 @@ const Home = () => {
         <div class="col-lg-10 col-12 text-jindigo">
 
             <div class="container">
-
                 <div class="row no-gutters">
                   <div class="col-lg-4 col-md-6">
                     <div class="icon-box">

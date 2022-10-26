@@ -6,7 +6,7 @@ import { c1, c2, c3 } from "./forExport"
 
 const Carousel = () => {
     return ( 
-        <section id="heroSection" class="carousel text-center slide col-12 pt-3 pb-5" data-bs-ride="carousel">
+        <section id="heroSection" class="carousel col-12 text-center slide pt-3 pb-5" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <a href="Articles.html"> <img src={c1} class="img-fluid w-100" alt="" /></a>                
