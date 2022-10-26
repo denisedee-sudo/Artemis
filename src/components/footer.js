@@ -1,25 +1,31 @@
 import { artemisLogoDarkPNG } from "../components/forExport";
+import "../sass/style.css";
 
 const Footer = () => {
     return ( 
     <footer className="row bg-jindigo text-bubbles py-1 text-play">
                 <div className="col-12 col-lg-1"></div>
                 <div className="col-12 col-lg-3">
-                    <br/><br/>
+                    <div className="container">
+                    <br/>
                     <h3 className="text-maxy">JOIN US</h3>
                     <p className="text-justify">Artemis Organization currently has over 6,000 members, from over 180 countries. Our members are part of a powerful base of feminist, women’s rights and gender justice defenders, activists and allies, connecting, exchanging, learning and acting together for transformative change.</p>
                     <button className="btn btn-carmine hover-maxy btn-lg">BE A SPONSOR NOW</button>
+                    </div>
                 </div>
                 <div className="col-12 col-lg-3">
-                    <br/><br/>
-                    <h3 className="text-carmine">DONATE</h3>
-                    <p className="text-justify">You can also show your support for transformative change by making a donation to Artemis Organization. Your valuable contribution will help sustain the work we do across the globe to support women and youth in the poorest communities to achieve sexual and reproductive health and rights.
+                    <div className="container">
+                        <br/>
+                        <h3 className="text-carmine">DONATE</h3>
+                        <p className="text-justify">You can also show your support for transformative change by making a donation to Artemis Organization. Your valuable contribution will help sustain the work we do across the globe to support women and youth in the poorest communities to achieve sexual and reproductive health and rights.
 
-                    </p>
-                    <button className="btn btn-lg btn-maxy text-jindigo hover-carmine hover-big"  data-bs-toggle="modal" data-bs-target="#Donate">DONATE NOW</button>
+                        </p>
+                        <button className="btn btn-lg btn-maxy text-jindigo hover-carmine hover-big"  data-bs-toggle="modal" data-bs-target="#Donate">DONATE NOW</button>
+                    </div>
                 </div>
                 <div className="col-12 col-lg-4">
-                    <br/><br/>
+                    <div className="container ">
+                    <br/>
                     <h3 className="text-bubbles">Connect with us</h3>
                     <a className="col-1 text-decoration-none" href="index.html">
                         <i className="hover-gradient text-bubbles hover-big p-2 rounded-circle bg-jindigo fa-brands fa-facebook fa-2x"></i>
@@ -32,20 +38,23 @@ const Footer = () => {
                     </a>
                     <p>Join the conversation and stay connected with the community. Receive a regular selection of feminist analysis, resources and ways to get involved with the movements.</p>
                     
-                    <form action="" className="input-group">
+                    <form action="" className="input-group pb-2">
                         <input type="email" className="form-control" placeholder="Enter Email Address"/>
                         <button className="btn btn-lg btn-outline-bubbles text-bubbles hover-jindigo hover-big">SIGN ME UP</button>
                      </form>
+                    </div>
                 </div>
                 
             <br/><br/>
-            <hr />
+            <hr className="my-2" />
 
         <div className="col-12 col-md-3 pt-2 pb-2 text-center">
-            <img src={artemisLogoDarkPNG} alt="logo" />
-            <h5 className="hover-big hover-maxy" >Address:  27 Ofelia St., Ofelia Village, Bgy, Project 8, Quezon City, 1106 Metro Manila</h5>
-            <h5 className="hover-big hover-maxy" >Phone: (02) 3454 3854</h5>
-            <h5 className="hover-big hover-maxy" >Email: office@artemis.org</h5>
+            <div className="container">
+                <img src={artemisLogoDarkPNG} alt="logo" />
+                <h5 className="hover-big hover-maxy" >Address:  27 Ofelia St., Ofelia Village, Bgy, Project 8, Quezon City, 1106 Metro Manila</h5>
+                <h5 className="hover-big hover-maxy" >Phone: (02) 3454 3854</h5>
+                <h5 className="hover-big hover-maxy" >Email: office@artemis.org</h5>
+            </div>
         </div>
         <div className="col-12 col-md-3  text-center">
             <div className="invisible-xs py-5">
