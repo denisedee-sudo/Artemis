@@ -1,4 +1,7 @@
 import { artemisLogoDarkPNG } from "../components/forExport";
+import { Link } from "react-router-dom";
+
+
 import "../sass/style.css";
 
 const Footer = () => {
@@ -63,13 +66,13 @@ const Footer = () => {
             <h3 className="pt-2 text-play" >About Us</h3>
             <ul className="list-unstyled mb-0 ">
                 <li className=" hover-big">
-                    <a href="About.html" className=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">Who We Are</a>
+                    <Link to="/Artemis/about" className=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">Who We Are</Link>
                 </li>
                 <li className="hover-big">
-                    <a href="About.html#whatwedo" className=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">What We Do</a>
+                    <Link to="/Artemis/about" className=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">What We Do</Link>
                 </li>
                 <li className="hover-big">
-                    <a href="About.html#FAQ" className=" pt-1  text-play hover-maxy pointer text-bubbles text-decoration-none ">FAQ's</a>
+                    <Link to="/Artemis/about" className=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">FAQ's</Link>
                 </li> 
             </ul>
             
@@ -81,10 +84,10 @@ const Footer = () => {
             <h3 className="pt-2 text-play" >Stay Informed</h3>
             <ul className="list-unstyled mb-0 ">
                 <li className="hover-big">
-                    <a href="Articles.html#articles" className=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">Articles</a>
+                    <Link to="/Artemis/articles" className=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">Articles</Link>
                 </li>
                 <li className="hover-big"   >
-                    <a href="Articles.html" className=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">Project Highlights</a>
+                    <Link to="/Artemis/articles" className=" text-play hover-big pt-1 hover-maxy pointer text-bubbles text-decoration-none ">Project Highlights</Link>
                 </li>
             </ul>
         </div>
