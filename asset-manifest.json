@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Artemis/static/css/main.1c154e6c.css",
-    "main.js": "/Artemis/static/js/main.176995aa.js",
+    "main.css": "/Artemis/static/css/main.3e44e6e8.css",
+    "main.js": "/Artemis/static/js/main.86c4bc47.js",
     "static/js/787.b2399ba5.chunk.js": "/Artemis/static/js/787.b2399ba5.chunk.js",
     "static/media/perfectly imperfect info.jpg": "/Artemis/static/media/perfectly imperfect info.9a4e0ad201037769c35d.jpg",
     "static/media/carousel1.png": "/Artemis/static/media/carousel1.49420712ea53db3417e4.png",
@@ -28,12 +28,12 @@
     "static/media/sampleIMG.svg": "/Artemis/static/media/sampleIMG.880e44dbc54ca56cfbadb185b89a9b8c.svg",
     "static/media/ARTEMISlogoDark.ico": "/Artemis/static/media/ARTEMISlogoDark.72d8bb074471a20712e8.ico",
     "index.html": "/Artemis/index.html",
-    "main.1c154e6c.css.map": "/Artemis/static/css/main.1c154e6c.css.map",
-    "main.176995aa.js.map": "/Artemis/static/js/main.176995aa.js.map",
+    "main.3e44e6e8.css.map": "/Artemis/static/css/main.3e44e6e8.css.map",
+    "main.86c4bc47.js.map": "/Artemis/static/js/main.86c4bc47.js.map",
     "787.b2399ba5.chunk.js.map": "/Artemis/static/js/787.b2399ba5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c154e6c.css",
-    "static/js/main.176995aa.js"
+    "static/css/main.3e44e6e8.css",
+    "static/js/main.86c4bc47.js"
   ]
 }
