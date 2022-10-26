@@ -27,13 +27,13 @@ const Articles = () => {
             </p>
             </div>
             <div class=" col-12 pt-5 text-center bg-diamond" id="articles">
-            <div class="container p-3">
-                <div class="row">
+            <div class="container p-3" id='articleOne'>
+                <div class="row" >
                     {/* start of an article preview */} 
-                    <div class="col-md-4 col-12 my-2 art-img pt-2">
+                    <div class="col-md-4 col-12 my-2 art-img pt-2" >
                         <img class="img-fluid img-thumbnail " src={artcl1} alt="img-asset" />
                     </div>
-                    <div class="col-md-8 col-12 text-start pb-2">
+                    <div class="col-md-8 col-12 text-start pb-2" >
                         <h3 class="m-2">5 Interesting Facts about Birth Control</h3>
                         <p>Using birth control and contraceptives isn’t only about limiting unprotected sex and preventing pregnancy. Birth control is a critical tool for reproductive health care delivery and disease control. At the same time, there are so many forms of birth control to choose from, which makes it hard to pick the best option for you! But lucky for you, it doesn’t have to be this way!</p>
                         <a href="articles.html">see more...</a>

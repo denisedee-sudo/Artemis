@@ -1,4 +1,7 @@
 import React from 'react';
+
+import { HashLink as Link } from 'react-router-hash-link';
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../sass/main.scss"
@@ -9,13 +12,13 @@ const Carousel = () => {
         <section id="heroSection" class="carousel col-12 text-center slide pt-3 pb-5" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <a href="Articles.html"> <img src={c1} class="img-fluid w-100" alt="" /></a>                
+                <Link to="/Artemis/about"><img src={c1} class="img-fluid w-100" alt="" /></Link>
             </div>
             <div class="carousel-item">
-                <a href="About.html"> <img src={c2} class="img-fluid w-100" alt="" /></a>
+                <Link to="/Artemis/booking"><img src={c2} class="img-fluid w-100" alt="" /></Link>
             </div>
             <div class="carousel-item">
-                <a href="Book.html"> <img src={c3} class="img-fluid w-100" alt="" /></a>
+                <Link to="/Artemis/articles#articleOne"> <img src={c3} class="img-fluid w-100" alt="" /></Link>
             </div>        
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#heroSection" data-bs-slide="prev">
