@@ -1,5 +1,5 @@
-import { artemisFinalPNG,
-    bdo,
+import { bdo,
+    artemisLogoPNG,
     gcash,
     paypal,
     robinson } from "../components/forExport";
@@ -8,7 +8,7 @@ const Modals = () => {
     return ( 
     <div>
             <div class="modal" id="Donate">
-                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-md-down modal-xl">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
                     <div class="modal-content text-play">
                         <div class="modal-header bg-jindigo text-bubbles">
                             <h2>Donate Now!</h2>
@@ -19,14 +19,12 @@ const Modals = () => {
                         <div class="modal-body">
                         
                             <div class="row text-jindigo">
-                                <div class="col-1"></div>
-                                <div class="col-4">
-                                    <img class="img-fluid w-100" src={artemisFinalPNG} alt="" />
+                                <div class="col-4 col-md-2 col-lg-1">
+                                    <img class="img-fluid " src={ artemisLogoPNG } alt="" />
                                 </div>
-                                <div class="col-6">
+                                <div class="col-8 col-md-10">
                                     <div class="row">
                                         <p class="text-start col-12 text-jindigo"> A nonprofit oraganization working with women and youth in the poorest communities to achieve sexual and reproductive health and rights.
-                                            
                                         </p>
                                     </div>
 
