@@ -97,65 +97,67 @@ const About = () => {
         <div class="col-12 pt-5 text-center bg-diamond">
             <h2 id="FAQ">Frequently Asked Questions</h2>
             <div class="container p-5">
-                <div class="accordion">
+                <div class="accordion accordion-flush" id="accordionFlushOne">
                     <div class="accordion-item bg-diamond">
-                      <h2 class="accordion-header text-bubbles hover-maxy">
-                        <button class="bg-jindigo text-bubbles hover-maxy accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+                      <h2 class="accordion-header text-bubbles hover-maxy" id="flush-headingOne">
+                        <button class="bg-jindigo text-bubbles hover-maxy accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
                             Can I get birth control that will help me skip my period? Will not having a period lower my chances of pregnancy?
                         </button>
                       </h2>
-                      <div id="q1" class="accordion-collapse collapse">
+                      <div id="q1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushOne">
                         <div class="accordion-body text-start bg-bubbles">
                             Hormonal birth control can definitely help you make #PeriodsOptional. With the implant or hormonal IUD, about 30% of women will have no monthly bleeds and the other 70% will have lighter bleeds. On the shot, 70% of women will have no bleeds by the 3rd shot. If you use the pill and skip the bleeding week (aka the placebo pills), 80% have no bleeding by 13 months.                        </div>
                       </div>
                     </div>
                     {/* End of accordion item */}
                     <div class="accordion-item bg-diamond">
-                        <h2 class="accordion-header text-diamond hover-maxy">
-                          <button class="bg-jindigo text-bubbles hover-maxy accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
+                      <h2 class="accordion-header text-bubbles hover-maxy" id="flush-headingTwo">
+                        <button class="bg-jindigo text-bubbles hover-maxy accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
                             If I am taking the birth control pill, patch, or ring, why do I need to use condoms?
-                          </button>
-                        </h2>
-                        <div id="q2" class="accordion-collapse collapse">
+                        </button>
+                      </h2>
+                      <div id="q2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushOne">
                         <div class="accordion-body text-start bg-bubbles">
-                                We recommend and encourage using condoms to protect yourself and your future children from sexually transmitted infections.                       </div>
+                            We recommend and encourage using condoms to protect yourself and your future children from sexually transmitted infections.</div>
                         </div>
                     </div>
+
                     {/* End of accordion item */}
                     <div class="accordion-item bg-diamond">
-                        <h2 class="accordion-header text-diamond hover-maxy">
-                          <button class="bg-jindigo text-bubbles hover-maxy accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q3">
+                      <h2 class="accordion-header text-bubbles hover-maxy" id="flush-headingThree">
+                        <button class="bg-jindigo text-bubbles hover-maxy accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">
                             Can you still get pregnant on birth control?
-                          </button>
-                        </h2>
-                        <div id="q3" class="accordion-collapse collapse">
+                        </button>
+                      </h2>
+                      <div id="q3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushOne">
                         <div class="accordion-body text-start bg-bubbles">
-                                Yes it’s possible for several reasons: If you don’t take it every day, if you need a higher dose of hormones than you are on. and some people are just really fertile and get pregnant on the birth control pill even if they take it every day. If you think you might be pregnant, you should check a pregnancy test.  However, if you take your medicine everyday and there isn’t any unusual spotting, then it’s unlikely that you would get pregnant. The chance of pregnancy on the birth control pill, if you take it right, is like 3/1000 women. And 9/100 in “normal use” meaning with errors.                          </div>
+                        Yes it’s possible for several reasons: If you don’t take it every day, if you need a higher dose of hormones than you are on. and some people are just really fertile and get pregnant on the birth control pill even if they take it every day. If you think you might be pregnant, you should check a pregnancy test.  However, if you take your medicine everyday and there isn’t any unusual spotting, then it’s unlikely that you would get pregnant. The chance of pregnancy on the birth control pill, if you take it right, is like 3/1000 women. And 9/100 in “normal use” meaning with errors.</div>
                         </div>
                     </div>
+
                     {/* End of accordion item */}
                     <div class="accordion-item bg-diamond">
-                        <h2 class="accordion-header text-diamond hover-maxy">
-                          <button class="bg-jindigo text-bubbles hover-maxy accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q4">
+                      <h2 class="accordion-header text-bubbles hover-maxy" id="flush-headingFour">
+                        <button class="bg-jindigo text-bubbles hover-maxy accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4">
                             Are birth control pills really bad for you?
-                          </button>
-                        </h2>
-                        <div id="q4" class="accordion-collapse collapse">
-                            <div class="accordion-body text-start bg-bubbles">
-                                Birth Control pills are really good for those that want/need them. They are FAR more effective than abstinence or condoms for preventing unplanned pregnancies. They can be used to treat acne, anemia, bad cramps, PCOS. They can be used to turn off your periods Did you know that you can skip your periods??? As Dr. Berg pointed out – they can decrease your risk of several cancers.
-                         </div>
+                        </button>
+                      </h2>
+                      <div id="q4" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushOne">
+                        <div class="accordion-body text-start bg-bubbles">
+                            Birth Control pills are really good for those that want/need them. They are FAR more effective than abstinence or condoms for preventing unplanned pregnancies. They can be used to treat acne, anemia, bad cramps, PCOS. They can be used to turn off your periods Did you know that you can skip your periods??? As Dr. Berg pointed out – they can decrease your risk of several cancers.</div>
                         </div>
                     </div>
+
                     {/* End of accordion item */}
                     <div class="accordion-item bg-diamond">
-                        <h2 class="accordion-header text-diamond hover-maxy">
-                          <button class="bg-jindigo text-bubbles hover-maxy accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q5">
+                      <h2 class="accordion-header text-bubbles hover-maxy" id="flush-headingFive">
+                        <button class="bg-jindigo text-bubbles hover-maxy accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5">
                             What’s the best birth control if I don’t want to have any children?
-                          </button>
-                        </h2>
-                        <div id="q5" class="accordion-collapse collapse">
+                        </button>
+                      </h2>
+                      <div id="q5" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushOne">
                         <div class="accordion-body text-start bg-bubbles">
-                            The best birth control if you don’t want to have children are in order from best/most to least effective:
+                        The best birth control if you don’t want to have children are in order from best/most to least effective:
                             <br />
                             The birth control implant (Nexplanon ®) works better than tubal ligation! Some women do GREAT on it. Some women have a lot of random breakthrough bleeding (BTB).
                             <br />
@@ -165,7 +167,7 @@ const About = () => {
                             <br />
                             If you like the birth control ring (Nuvaring ® or its generics), now there is a 1 year ring. You could just put it in and leave it in for a year!!
                             <br />
-                            Know that there are 40 different birth control pills with estrogen and progesterone. so if you didn’t like 1 then there are 39 other formulations of the birth control pill you could try.                          </div>
+                            Know that there are 40 different birth control pills with estrogen and progesterone. so if you didn’t like 1 then there are 39 other formulations of the birth control pill you could try.</div>
                         </div>
                     </div>
                     {/* End of accordion item */}

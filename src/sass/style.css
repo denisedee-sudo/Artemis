@@ -165,3 +165,20 @@
     display: none !important;
     }
   }
+
+
+  .btn-carmine{
+    background-color: #F14444 !important;
+  }
+  .btn-bubbles{
+    background-color: #E8F6FF !important;
+  }
+  .btn-jindigo{
+    background-color: #2D3E4B !important;
+  }
+  .btn-maxy{
+    background-color: #B9E4FF !important;
+  }
+  .btn-peachpuff{
+    background-color: #FFD4B9 !important;
+  }
