@@ -39,7 +39,7 @@ const Navbar = () => {
                             <NavLink to="/Artemis/booking" className="nav-link active text-jindigo hover-carmine hover-big">Book an Appointment</NavLink>
                         </li>
                         <li className="nav-item mx-auto d-block d-sm-none">
-                            <button className="btn btn-lg btn-maxy text-jindigo hover-carmine hover-big m-2 p-2 pe-5 ps-5"  data-bs-toggle="modal" data-bs-target="#Donate">
+                            <button className="btn btn-lg btn-warning text-jindigo hover-carmine hover-big m-2 p-2 pe-5 ps-5"  data-bs-toggle="modal" data-bs-target="#Donate">
                                 <h5>Donate Now!</h5>
                             </button>
                         </li>
@@ -54,7 +54,7 @@ const Navbar = () => {
                             </div>
                         </li>
                         <li className="nav-item mx-auto d-block d-sm-none">
-                            <button className="btn btn-lg btn-maxy text-jindigo hover-carmine hover-big m-2 p-2 pe-5 ps-5"  data-bs-toggle="modal" data-bs-target="#Donate">
+                            <button className="btn btn-lg btn-warning text-jindigo hover-carmine hover-big m-2 p-2 pe-5 ps-5"  data-bs-toggle="modal" data-bs-target="#Donate">
                                 <h5>Donate Now!</h5>
                             </button>
                         </li>
@@ -71,7 +71,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="invisible-xs">
-                    <button  data-bs-toggle="modal" data-bs-target="#Donate" className="btn btn-lg btn-maxy text-jindigo hover-carmine hover-big m-2 p-2 pe-5 ps-5">
+                    <button  data-bs-toggle="modal" data-bs-target="#Donate" className="btn btn-lg btn-warning text-jindigo hover-carmine hover-big m-2 p-2 pe-5 ps-5">
                         <h5>Donate Now!</h5>
                     </button>
                 </div>

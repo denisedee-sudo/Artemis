@@ -2,6 +2,7 @@
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
 
+
 $custom-theme-colors:(
     "carmine": #F14444,
     "bubbles": #E8F6FF,
@@ -15,3 +16,4 @@ $theme-colors: map-merge($custom-theme-colors , $theme-colors);
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./style.css";
+
