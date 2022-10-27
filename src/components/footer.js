@@ -98,7 +98,7 @@ const Footer = () => {
             </div>
             <h3 className="pt-2 text-play" >Get Involved</h3>
             <ul className="list-unstyled mb-0 ">
-                <li className=" hover-big hover-maxy pointer text-bubbles">
+                <li className=" hover-big hover-maxy pointer text-bubbles" data-bs-toggle="modal" data-bs-target="#Donate">
                     Donate
                 </li>
                 <li className="hover-big hover-maxy pointer text-bubbles">

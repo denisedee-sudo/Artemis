@@ -22,7 +22,7 @@ const Navbar = () => {
         <div>
             <nav className="navbar navbar-expand-lg  fixed-top text-play bg-diamond">
                 <p className="navbar-brand p-3 pointer hover-big pointer" >
-                    <img src={artemisFinalPNG} alt="logo" height="60px" />
+                    <NavLink to="/Artemis"><img src={artemisFinalPNG} alt="logo" height="60px" /></NavLink> 
                 </p>
                 <div className="collapse navbar-collapse" id="bar-toggle">
                     <ul className="navbar-nav text-center">
